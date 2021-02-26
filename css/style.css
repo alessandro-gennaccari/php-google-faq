@@ -25,6 +25,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    background-color: white;
 }
 header .header-top .logo img {
     height: 25px;
@@ -53,4 +54,13 @@ header .header-bottom ul li .active {
 main {
     margin-top: 100px;
     padding: 30px;
+}
+main h2 {
+    color: #3c4043;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+main p {
+    padding-bottom: 30px;
+    font-size: 14px;
 }
