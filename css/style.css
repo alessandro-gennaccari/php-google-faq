@@ -62,5 +62,39 @@ main h2 {
 }
 main p {
     padding-bottom: 30px;
-    font-size: 14px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.87);
+    line-height: 24px;
+}
+footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+    padding: 10px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+footer .links ul {
+    display: flex;
+}
+footer .links ul li:not(:first-child)::before {
+    content: "\0000b7";
+    padding: 0 3px;
+}
+footer .links ul li a {
+    font-size: 11px;
+    padding-right: 3px;
+}
+footer .language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .language .icon {
+    line-height: 0;
+    padding-right: 5px;
+}
+footer .language select {
+    width: 150px;
 }

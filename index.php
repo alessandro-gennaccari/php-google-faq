@@ -44,7 +44,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -96,7 +96,7 @@
             <?php foreach ($question['paragraphs'] as $paragraph) { ?>
 
                 <p><?php echo $paragraph?></p>
-    
+
             <?php } ?>
 
         <?php } ?>
@@ -104,6 +104,51 @@
 
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer-flex">
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com/">Google</a>
+                        </li>
+                        <li>
+                            <a href="https://about.google/">Tutto su Google</a>
+                        </li>
+                        <li>
+                            <a href="https://policies.google.com/privacy">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="https://policies.google.com/terms">Termini</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="language">
+                    <div class="icon">
+                        <img src="img/lang-icon.png" alt="Icon Lingua">
+                    </div>
+                    <select name="lang">
+                        <option value="it">Italiano</option>
+                        <option value="af">Afrikaans</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="ms">Bahasa Melayu</option>
+                        <option value="da">Dansk</option>
+                        <option value="de">Deutsch</option>
+                        <option value="et">Eesti</option>
+                        <option value="en">English</option>
+                        <option value="eu">Euskara</option>
+                        <option value="fil">Filipino</option>
+                        <option value="gl">Galego</option>
+                        <option value="hr">Hrvatski</option>
+                        <option value="zu">Isizulu</option>
+                        <option value="sw">Kiswahili</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
